@@ -54,10 +54,11 @@ summary {
 audio,
 canvas,
 progress,
-video {
-  display: inline-block; /* 1 */
-  vertical-align: baseline; /* 2 */
-}
+/*video {
+/  display: inline-block; /* 1 */
+/*  vertical-align: baseline; /* 2 */
+
+
 
 /**
  * Prevent modern browsers from displaying `audio` without controls.
@@ -122,7 +123,6 @@ strong {
 /**
  * Address styling not present in Safari and Chrome.
  */
-
 dfn {
   font-style: italic;
 }
@@ -143,7 +143,7 @@ h1 {
 
 mark {
   background: #ff0;
-  color: #000;
+  color: #00f;
 }
 
 /**
