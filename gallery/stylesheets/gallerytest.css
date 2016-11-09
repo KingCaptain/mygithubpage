@@ -99,13 +99,15 @@ a {
         background-size: 2px 2px;
       }
 
-.page-header {
-  color: #fff;
-  text-align: center;
-  object-position: center;
-/*  background-color: #000000;
-  background-image: linear-gradient(120deg, #1F18B0, #2F84BF); }*/
-}
+      .page-header {
+        color: #fff;
+        text-align: center;
+        text-shadow:
+          -.5px -.5px 0 #000,
+          .5px -.5px 0 #000,
+          -.5px .5px 0 #000,
+          .5px .5px 0 #000;
+      }
 
 @media screen and (min-width: 64em) {
   .page-header {
