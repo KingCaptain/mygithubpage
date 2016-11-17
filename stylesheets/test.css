@@ -1,6 +1,18 @@
 * {
   box-sizing: border-box; }
+  @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+  @font-face {
+  	font-family: 'fontawesome-webfont';
+  	src:url('../fonts/fontawesome-webfont.eot');
+  	src:url('../fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+  		url('../fonts/fontawesome-webfont.svg#fontawesome-webfont') format('svg'),
+  		url('../fonts/fontawesome-webfont.woff') format('woff'),
+  		url('../fonts/fontawesome-webfont.ttf') format('truetype');
+  	font-weight: normal;
+  	font-style: normal;
+  }
 
+/*
 body {
   padding: 0;
   margin: 0;
@@ -8,18 +20,29 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #606c71; }
+*/
 
+body {
+  min-height: 10em;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
 a {
   color: #1e6bb8;
   text-decoration: none;
-  text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;}
+  /*text-shadow:
+    -0.5px -0.5px 0 #000,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+  0.5px 0.5px 0 #000;*/}
   a:hover {
     text-decoration: underline; }
 
+.title {
+  text-align: center;
+  vertical-align: middle;
+}
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
@@ -67,6 +90,8 @@ a {
       	width: auto;
       	height: auto;
       	z-index: -100;
+        -webkit-filter: brightness(0.4);
+        filter: brightness(0.4);
       	-webkit-transform: translateX(-50%) translateY(-50%);
         /*-webkit-filter: blur(2px);
         -moz-filter: blur(2px);
@@ -81,11 +106,13 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+  vertical-align: middle;
+  position: absolute;
+  top: 40%;
+  bottom: 90%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 @media screen and (min-width: 64em) {
