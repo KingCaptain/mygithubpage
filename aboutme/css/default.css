@@ -1,12 +1,12 @@
 /* General Blueprint Style */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 @font-face {
-	font-family: 'fontawesome';
-	src:url('../fonts/fontawesome.eot');
-	src:url('../fonts/fontawesome.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/fontawesome.svg#fontawesome') format('svg'),
-		url('../fonts/fontawesome.woff') format('woff'),
-		url('../fonts/fontawesome.ttf') format('truetype');
+	font-family: 'fontawesome-webfont';
+	src:url('../fonts/fontawesome-webfont.eot');
+	src:url('../fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/fontawesome-webfont.svg#fontawesome-webfont') format('svg'),
+		url('../fonts/fontawesome-webfont.woff') format('woff'),
+		url('../fonts/fontawesome-webfont.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -96,7 +96,7 @@ a:hover {
 
 .icon-drop:before,
 .icon-arrow-left:before {
-	font-family: 'fontawesome';
+	font-family: 'fontawesome-webfont';
 	position: absolute;
 	top: 0;
 	width: 100%;
@@ -113,13 +113,71 @@ a:hover {
 }
 
 .container > header nav a:hover:before {
-	color: #fff;
+	color: #47a3da;
 }
 
+.icon-projects:before {
+	font-family: 'fontawesome-webfont';
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 2;
+	text-align: center;
+	color: #47a3da;
+	-webkit-font-smoothing: antialiased;
+	text-indent: 8000px;
+	padding-left: 9.5px;
+}
+
+.icon-gallery:before {
+	font-family: 'fontawesome-webfont';
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 2;
+	text-align: center;
+	color: #47a3da;
+	-webkit-font-smoothing: antialiased;
+	text-indent: 8000px;
+	padding-left: 9.5px;
+}
+
+.icon-resume:before {
+	font-family: 'fontawesome-webfont';
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 2;
+	text-align: center;
+	color: #47a3da;
+	-webkit-font-smoothing: antialiased;
+	text-indent: 8000px;
+	padding-left: 9.5px;
+}
+.icon-resume:before {
+	content: "\f15c";
+}
 .icon-drop:before {
 	content: "\e000";
 }
-
+.icon-projects:before {
+	content: "\f0ad";
+}
+.icon-gallery:before{
+	content: "\f03e";
+}
 .icon-arrow-left:before {
 	content: "\f060";
 }
