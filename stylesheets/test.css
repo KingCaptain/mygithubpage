@@ -68,11 +68,11 @@ a {
       	height: auto;
       	z-index: -100;
       	-webkit-transform: translateX(-50%) translateY(-50%);
-        -webkit-filter: blur(2px);
+        /*-webkit-filter: blur(2px);
         -moz-filter: blur(2px);
         -o-filter: blur(2px);
         -ms-filter: blur(2px);
-        filter: blur(2px);
+        filter: blur(2px);*/
       	transform: translateX(-50%) translateY(-50%);
       	background: url(20161008_133300.mp4) no-repeat;
       	background-size: cover;

@@ -1,10 +1,14 @@
 * {
   box-sizing: border-box; }
 
-body {
-  display: block;
-  background-color: #101010;
+body, html, main {
+  overflow-x: hidden;
+  min-height: 500px;
+  background-image: url(http://unsplash.com/photos/mGTaTw5lJio/download);
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 0;
   margin: 0;
 
@@ -154,14 +158,61 @@ a {
   .project-tagline {
     font-size: 1rem; } }
 
+/*.cd-fixed-bg {
+  background-image: url(http://unsplash.com/photos/mGTaTw5lJio/download);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}*/
+
+.cd-fixed.bg.cd-bg-1 {
+  background-image: url(https://drive.google.com/open?id=0B1Of1_OowOHFTHNsN2Z2ellUSFE);
+}
+
+.cd-bg-1 {
+  background-image: url(https://drive.google.com/open?id=0B1Of1_OowOHFTHNsN2Z2ellUSFE);
+}
+/*.cd-scrolling-bg {
+  min-height: 100%;
+}*/
+
+.stage-1 {
+  overflow-x: hidden;
+/*  background: rgba(197, 212, 223, 1);
+/*  width: 100%;*/
+  margin: 0 -9999rem;
+  padding: 0.25rem 9999rem;
+  text-align: center;
+}
+
+.paragraph-one {
+  background: block;
+  background: rgba(197,212,223,1);
+  /*position: absolute;*/
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(197,212,223,1);
+}
+
+.stage-2 {
+  overflow-x: hidden;
+  background: rgba(197, 212, 223, 1);
+/*  width: 100%;*/
+  margin: 0 -9999rem;
+  padding: 0.25rem 9999rem;
+  text-align: center;
+}
 
 .main-content {
-  background: block;
+  /*background: block;
   background-color: rgba(197, 212, 223, 0.5);
   border-radius: 25px;
   margin-left: 50px;
   margin-right: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 50px;*/
 }
 .main-content :first-child {
   margin-top: 0; }
