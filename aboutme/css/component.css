@@ -54,7 +54,7 @@ html, body,
 }
 
 #fbsection1 {
-	background-image: url(../../Pictures/myface.jpg);
+	background-image: url("../../Pictures/myface.jpg");
 	background-position: center;
 	-webkit-filter: grayscale(60%);
 	filter: grayscale(60%);
@@ -68,7 +68,7 @@ html, body,
 }
 
 #fbsection3 {
-	background-image: url(../../Pictures/aesthetic.jpg);
+	background-image: url("../../Pictures/aesthetic.jpg");
 	background-position: center;
 }
 /*
