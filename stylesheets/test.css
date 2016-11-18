@@ -99,7 +99,8 @@ a {
         -ms-filter: blur(2px);
         filter: blur(2px);*/
       	transform: translateX(-50%) translateY(-50%);
-      	background: url(20161008_133300.mp4) no-repeat;
+      	background: url("Videos/fullremoval_x264");
+        background-repeat: no-repeat;
       	background-size: cover;
       }
 
