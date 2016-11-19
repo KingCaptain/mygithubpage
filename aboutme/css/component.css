@@ -38,7 +38,7 @@ html, body,
 }
 
 .cbp-fbscroller > nav a.cbp-fbcurrent {
-	background: #1794D2;
+	background: #235A37;
 }
 
 /* background-attachment does the trick */
@@ -56,12 +56,12 @@ html, body,
 #fbsection1 {
 	background-image: url("https://raw.githubusercontent.com/KingCaptain/mygithubpage/master/Pictures/myface-min.JPG");
 	background-position: center;
-	-webkit-filter: grayscale(60%);
-	filter: grayscale(60%);
+	-webkit-filter: grayscale(30%);
+	filter: grayscale(30%);
 }
 
 #fbsection2 {
-	background-color: #1794D2;
+	background-color: #235A37;
 	background-size: auto;
 	text-align: center;
 	text-rendering: optimizeLegibility;
@@ -71,6 +71,8 @@ html, body,
 	background-image: url("https://github.com/KingCaptain/mygithubpage/blob/master/Pictures/aesthetic-min.jpg?raw=true");
 	background-position: center;
 	background-size: cover;
+	-webkit-filter: grayscale(30%);
+	filter: grayscale(30%);
 }
 /*
 #fbsection4 {
