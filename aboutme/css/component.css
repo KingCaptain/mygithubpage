@@ -54,7 +54,7 @@ html, body,
 }
 
 #fbsection1 {
-	background-image: url("https://raw.githubusercontent.com/KingCaptain/mygithubpage/master/Pictures/myface.JPG");
+	background-image: url("https://raw.githubusercontent.com/KingCaptain/mygithubpage/master/Pictures/myface-min.JPG");
 	background-position: center;
 	-webkit-filter: grayscale(60%);
 	filter: grayscale(60%);
@@ -68,7 +68,7 @@ html, body,
 }
 
 #fbsection3 {
-	background-image: url("https://github.com/KingCaptain/mygithubpage/blob/master/Pictures/aesthetic.jpg?raw=true");
+	background-image: url("https://github.com/KingCaptain/mygithubpage/blob/master/Pictures/aesthetic-min.jpg?raw=true");
 	background-position: center;
 	background-size: cover;
 }
