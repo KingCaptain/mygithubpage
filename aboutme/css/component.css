@@ -54,7 +54,7 @@ html, body,
 }
 
 #fbsection1 {
-	background-image: url("https://raw.githubusercontent.com/KingCaptain/mygithubpage/master/Pictures/myface-min.JPG");
+	background-image: url("https://github.com/KingCaptain/mygithubpage/blob/master/Pictures/myface-min.JPG?raw=true");
 	background-position: center;
 	-webkit-filter: grayscale(30%);
 	filter: grayscale(30%);
