@@ -54,31 +54,66 @@ html, body,
 }
 
 #fbsection1 {
-	background-image: url("https://github.com/KingCaptain/mygithubpage/blob/master/Pictures/myface-min.JPG?raw=true");
+	/*background-image: url("https://github.com/KingCaptain/mygithubpage/blob/master/Pictures/myface-min.JPG?raw=true");*/
+	background-image: url("http://i.imgur.com/SchyaqA.jpg");
 	background-position: center;
 	-webkit-filter: grayscale(30%);
 	filter: grayscale(30%);
 }
 
 #fbsection2 {
-	background-color: #235A37;
-	background-size: auto;
+	background-position: center;
+	/*background-image: url("https://github.com/KingCaptain/mygithubpage/blob/master/Pictures/apexin-min.jpg?raw=true");*/
+	background-image: url("http://i.imgur.com/lCNcdzO.jpg");
+	margin-top: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	background-size: cover;
 	text-align: center;
-	text-rendering: optimizeLegibility;
+}
+
+h2 {
+	font-size: 50px;
+	color: #fff;
+	padding-top: 150px;
+	margin: 0;
+	margin-bottom: 25px;
+}
+
+#left-side {
+	width: 25%;
+	color: #fff;
+	vertical-align: top;
+	display: inline-block;
+}
+
+#middle-picture {
+	display: inline-block;
+	vertical-align: center;
+	width: 30%;
+	height: 0px;
+}
+
+#right-side {
+	width: 25%;
+	color: #fff;
+	vertical-align: top;
+	display: inline-block;
 }
 
 #fbsection3 {
-	background-image: url("https://github.com/KingCaptain/mygithubpage/blob/master/Pictures/aesthetic-min.jpg?raw=true");
+	/*background-image: url("https://github.com/KingCaptain/mygithubpage/blob/master/Pictures/aesthetic-replace.jpg?raw=true");*/
+	background-image: url("http://i.imgur.com/0dN8k1l.jpg");
 	background-position: center;
 	background-size: cover;
 	-webkit-filter: grayscale(30%);
 	filter: grayscale(30%);
 }
-/*
-#fbsection4 {
+
+/*#fbsection4 {
 	background-image: url(../images/4.jpg);
 }
-
+/*
 #fbsection5 {
 	background-image: url(../images/5.jpg);
 }
