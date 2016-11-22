@@ -82,6 +82,7 @@ h2 {
 }
 
 #left-side {
+	font-size: 20px;
 	width: 25%;
 	color: #fff;
 	vertical-align: top;
@@ -96,6 +97,7 @@ h2 {
 }
 
 #right-side {
+	font-size: 20px;
 	width: 25%;
 	color: #fff;
 	vertical-align: top;
