@@ -65,6 +65,7 @@ html, body,
 	background-position: center;
 	/*background-image: url("https://github.com/KingCaptain/mygithubpage/blob/master/Pictures/apexin-min.jpg?raw=true");*/
 	background-image: url("http://i.imgur.com/lCNcdzO.jpg");
+	text-shadow: 4px 4px 6px #000000;
 	margin-top: 0px;
 	padding-bottom: 0px;
 	margin: 0px;
@@ -103,11 +104,12 @@ h2 {
 
 #fbsection3 {
 	/*background-image: url("https://github.com/KingCaptain/mygithubpage/blob/master/Pictures/aesthetic-replace.jpg?raw=true");*/
-	background-image: url("http://i.imgur.com/0dN8k1l.jpg");
-	background-position: center;
+	background-image: url("http://i.imgur.com/q5plHo6.jpg"); background with full size picture
+	/*background-image: url("http://i.imgur.com/MQjsKSo.jpg"); background changed for me to be farther right */
+	background-position: left;
 	background-size: cover;
-	-webkit-filter: grayscale(30%);
-	filter: grayscale(30%);
+	-webkit-filter: grayscale(10%);
+	filter: grayscale(10%);
 }
 
 /*#fbsection4 {
