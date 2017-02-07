@@ -65,7 +65,7 @@ html, body,
 	background-position: center;
 	/*background-image: url("https://github.com/KingCaptain/mygithubpage/blob/master/Pictures/apexin-min.jpg?raw=true");*/
 	background-image: url("http://i.imgur.com/lCNcdzO.jpg");
-	text-shadow: 4px 4px 6px #000000;
+	text-shadow: 10px 10px 10px #000000;
 	margin-top: 0px;
 	padding-bottom: 0px;
 	margin: 0px;
@@ -74,6 +74,7 @@ html, body,
 }
 
 h2 {
+	text-align: center;
 	font-size: 50px;
 	color: #fff;
 	padding-top: 150px;
@@ -83,41 +84,68 @@ h2 {
 
 #left-side {
 	font-size: 20px;
+	height: 25%;
 	width: 25%;
 	color: #fff;
-	vertical-align: top;
+	vertical-align: center;
 	display: inline-block;
 }
 
+#left-side-hubbell {
+	font-size: 20px;
+	height: 25%;
+	width: 30%;
+	color: #fff;
+	text-align: center;
+	vertical-align: center;
+	display: inline-block;
+}
 #middle-picture {
 	display: inline-block;
 	vertical-align: center;
-	width: 30%;
+	margin-left: 5%;
+	margin-right: 5%;
+	height: 15%;
+	width: 20%;
 	height: 0px;
 }
 
 #right-side {
 	font-size: 20px;
+	height: 30%;
 	width: 25%;
 	color: #fff;
-	vertical-align: top;
+	vertical-align: center;
 	display: inline-block;
 }
 
+#right-side-hubbell {
+	font-size: 20px;
+	margin-left: 15%;
+	height: 30%;
+	width: 30%;
+	color: #fff;
+	text-align: center;
+	vertical-align: center;
+	display: inline-block;
+}
 #fbsection3 {
 	/*background-image: url("https://github.com/KingCaptain/mygithubpage/blob/master/Pictures/aesthetic-replace.jpg?raw=true");*/
-	background-image: url("http://i.imgur.com/q5plHo6.jpg"); background with full size picture
+	background-image: url("http://i.imgur.com/yAIiXwY.jpg"); background with full size picture
+	background-position: center;
 	/*background-image: url("http://i.imgur.com/MQjsKSo.jpg"); background changed for me to be farther right */
-	background-position: left;
+	text-shadow: 10px 10px 10px #000000;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
 	background-size: cover;
-	-webkit-filter: grayscale(10%);
-	filter: grayscale(10%);
+	text-align: center;
 }
 
-/*#fbsection4 {
-	background-image: url(../images/4.jpg);
+#fbsection4 {
+	background-image: url("http://i.imgur.com/q5plHo6.jpg");
 }
-/*
+
 #fbsection5 {
 	background-image: url(../images/5.jpg);
 }
