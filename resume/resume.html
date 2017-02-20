@@ -38,8 +38,16 @@
 					<a href="#fbsection5">Section 5</a>-->
 				</nav>
 
+				<script>
+				function resizeIFrame(obj){
+					obj.style.height = obj.contentWindow.document.body.scrollHeight ;
+					obj.style.width = obj.contentWindow.document.body.scrollWidth ;
+				}
+					</script>
+
         <section id="fbsection1">
-						<iframe src="https://previews.pdf-archive.com/2017/02/07/ryan-hart-resume/preview-ryan-hart-resume-1.jpg" width="40%" height="100%" scrolling="no" align="middle" frameborder="0" type="application/pdf">
+						<iframe id="iFrame1" src="resumepdf/resume.pdf" onload="resizeIFrame(this)" width="40%" height="95%" scrolling="no" align="middle" frameborder="0" type="application/pdf"
+						seamless="seamless" style="-webkit-transform:scale(1);-moz-transform-scale(1);">
 							<a href="https://www.pdf-archive.com/2017/02/07/ryan-hart-resume/ryan-hart-resume.pdf" target="_blank">
 							</a>
 						</iframe>
