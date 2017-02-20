@@ -61,8 +61,9 @@ html, body,
 	margin: 0px;
 
 	text-align: center;
-	/*background-image: url("https://github.com/KingCaptain/mygithubpage/blob/master/Pictures/myface-min.JPG?raw=true");*/
-	background-image: url("http://i.imgur.com/SchyaqA.jpg");
+	/*background-image: url("https://github.com/KingCaptain/mygithubpage/blob/master/Pictures/myface-min.JPG?raw=true");
+	background-image: url("http://i.imgur.com/SchyaqA.jpg");*/
+	background-image: url(../../Pictures/aesthetic-replace.jpg);
 	background-position: center;
 	-webkit-filter: grayscale(30%);
 	filter: grayscale(30%);
@@ -110,8 +111,9 @@ h2 {
 }
 
 #fbsection3 {
-	/*background-image: url("https://github.com/KingCaptain/mygithubpage/blob/master/Pictures/aesthetic-replace.jpg?raw=true");*/
-	background-image: url("http://i.imgur.com/0dN8k1l.jpg");
+	/*background-image: url("https://github.com/KingCaptain/mygithubpage/blob/master/Pictures/aesthetic-replace.jpg?raw=true");
+	background-image: url("http://i.imgur.com/0dN8k1l.jpg");*/
+	background-image: url(../images/5.jpg);
 	background-position: center;
 	background-size: cover;
 	-webkit-filter: grayscale(30%);

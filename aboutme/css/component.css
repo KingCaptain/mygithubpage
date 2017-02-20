@@ -53,19 +53,36 @@ html, body,
 	background-attachment: fixed;
 }
 
+
+
+
+
+
+
+
 #fbsection1 {
-	/*background-image: url("https://github.com/KingCaptain/mygithubpage/blob/master/Pictures/myface-min.JPG?raw=true");*/
-	background-image: url("http://i.imgur.com/SchyaqA.jpg");
+	/*background-image: url("https://github.com/KingCaptain/mygithubpage/blob/master/Pictures/myface-min.JPG?raw=true");
+	background-image: url("http://i.imgur.com/SchyaqA.jpg");*/
+	background-image: url("http://i.imgur.com/q5plHo6.jpg");
 	background-position: center;
 	-webkit-filter: grayscale(30%);
 	filter: grayscale(30%);
 }
 
+
+
+
+
+
+
+
+
+
 #fbsection2 {
 	background-position: center;
 	/*background-image: url("https://github.com/KingCaptain/mygithubpage/blob/master/Pictures/apexin-min.jpg?raw=true");*/
 	background-image: url("http://i.imgur.com/lCNcdzO.jpg");
-	text-shadow: 10px 10px 10px #000000;
+	text-shadow: 6px 6px 5px #000000;
 	margin-top: 0px;
 	padding-bottom: 0px;
 	margin: 0px;
@@ -101,8 +118,11 @@ h2 {
 	display: inline-block;
 }
 #middle-picture {
+	align-self: center;
 	display: inline-block;
-	vertical-align: center;
+	margin: auto;
+	text-align: center;
+	vertical-align:inherit;
 	margin-left: 5%;
 	margin-right: 5%;
 	height: 15%;
@@ -115,6 +135,7 @@ h2 {
 	height: 30%;
 	width: 25%;
 	color: #fff;
+	text-align: center;
 	vertical-align: center;
 	display: inline-block;
 }
@@ -129,12 +150,20 @@ h2 {
 	vertical-align: center;
 	display: inline-block;
 }
+
+
+
+
+
+
+
+
 #fbsection3 {
 	/*background-image: url("https://github.com/KingCaptain/mygithubpage/blob/master/Pictures/aesthetic-replace.jpg?raw=true");*/
 	background-image: url("http://i.imgur.com/yAIiXwY.jpg"); background with full size picture
 	background-position: center;
 	/*background-image: url("http://i.imgur.com/MQjsKSo.jpg"); background changed for me to be farther right */
-	text-shadow: 10px 10px 10px #000000;
+	text-shadow: 6px 6px 5px #000000;
 	margin-top: 0px;
 	padding-bottom: 0px;
 	margin: 0px;
@@ -142,11 +171,39 @@ h2 {
 	text-align: center;
 }
 
+
+
+
+
+
+
+
 #fbsection4 {
-	background-image: url("http://i.imgur.com/q5plHo6.jpg");
+	background-image: url("http://i.imgur.com/e4zCPme.jpg");
+	text-shadow: 6px 6px 5px #000000;
 }
 
+#left-side-travel {
+	color: #ffffff;
+	text-shadow: 2px 2px 0px #000000;
+	font-size: 150%;
+	text-align: left;
+	margin-left: 10%;
+	width: 20%
+}
+
+#left-header{
+	margin-left: 15%;
+	text-align: left;
+}
+
+
+
+
+
+
+
 #fbsection5 {
-	background-image: url(../images/5.jpg);
+	background-image: url("http://i.imgur.com/7wf6OBk.jpg");
 }
 */
