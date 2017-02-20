@@ -55,9 +55,10 @@ html, body,
 
 #fbsection1 {
 	background-position: center;
-	margin-top: 50px;
-	padding-bottom: 0px;
-	padding-top: 50px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	padding-bottom: 5px;
+	padding-top: 5px;
 	margin: 0px;
 
 	text-align: center;
